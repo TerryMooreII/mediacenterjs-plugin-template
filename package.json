@@ -1,0 +1,27 @@
+{
+  "name": "mediacenterjs-plugin-template",
+  "version": "0.0.1",
+  "description": "MediacenterJS plugin template",
+  "keywords": [
+    "mediacenterjs"
+  ],
+  "homepage": "https://github.com/TerryMooreII/mediacenterjs-plugin-template",
+  "bugs": {
+    "url": "https://github.com/TerryMooreII/mediacenterjs-plugin-template/issues"
+  },
+  "author": {
+    "name": "Terry Moore"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/TerryMooreII/mediacenterjs-plugin-template.git"
+  },
+  "peerDependencies": {
+    "mediacenterjs": "*"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ]
+}
