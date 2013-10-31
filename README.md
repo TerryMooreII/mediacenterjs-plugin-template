@@ -4,19 +4,19 @@
 #MediacenterJS Plugins
 
 
-The easiest way to get started creating plugins for MediacenterJS is to clone the mediacenterjs-plugin-template plugin.  This template has the required file and folder structure along with some sample HTML and CSS.
+The easiest way start creating plugins for MediacenterJS is to clone the mediacenterjs-plugin-template repository.  This template has the required files and folder structure along with some sample HTML and CSS.
 
 ```
-git clone XXXXXXXXXXXXXXXX
+git clone https://github.com/TerryMooreII/mediacenterjs-plugin-template.git
 ```
 
-Once you have cloned this repository then rename the mediacenterjs-plugin-template folder to match the name of your plugin.  However you **must** keep the `mediacenterjs-` prefix.  This prefix is what lets mediacenterjs know that this module is a plugin.  If you plan on sharing this plugin with the community (and we think you should) it is recommend that you do a `npm search mediacenterjs-<your-plugin-name>` to make that name has not been taken.  We will discuss how to test your plugin locally and then how to publish your plugin later on in this document. 
+After cloning this repository then rename the mediacenterjs-plugin-template folder to match the name of your plugin.  However you **must** keep the `mediacenterjs-` prefix.  This prefix is what lets mediacenterjs know that this module is a plugin.  If you plan on sharing this plugin with the community (and we think you should) it is recommend that you do a `npm search mediacenterjs-<your-plugin-name>` to make that name has not been taken.  We will discuss how to test your plugin locally and then how to publish your plugin later on in this document. 
 
 There are a few requirements that your plugins must adhere to.  It is required that your plugin have a `public` and `views` folder and an `index.js` file located in the root of the plugin folder.  
 
 ###The public folder
 
-The public folder will contain any front end static content such as any CSS, JavaScript, or image files.  You can structure this folder however you see fit.  The only requirement for this folder is that it contains a `tile.png` image in the root of the folder. This image will become the icon that uses will click on to open your plugin.  The recommended image size is 160px by 169px.
+The public folder will contain any front end static content such as any CSS, JavaScript, or image files.  You can structure this folder however you see fit.  The only requirement for this folder is that it contains a `tile.png` image in the root of the folder. This image will become the icon that users will click on to open your plugin.  The recommended image size is 160px by 169px.
 
 ###The views folder
 
