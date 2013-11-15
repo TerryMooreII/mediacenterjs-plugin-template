@@ -1,7 +1,7 @@
 #MediacenterJS Plugins template
 
 
-The easist way create plugins for MediacenterJS is to use the mediacenterjs-template-generator. [View the documentation][5] for more information 
+The easist way create plugins for MediacenterJS is to use the mediacenterjs-plugin-generator. [View the documentation][5] for more information 
 
 ```
 npm install mediacenterjs-template-generator
@@ -122,4 +122,4 @@ video#player.video-js.vjs-default-skin(controls, preload="metadata", width="100%
   [2]: http://jade-lang.com/tutorial/
   [3]: http://express.com
   [4]: http://github.com
-  [5]: https://github.com/TerryMooreII/mediacenterjs-template-generator
+  [5]: https://github.com/TerryMooreII/mediacenterjs-plugin-generator
