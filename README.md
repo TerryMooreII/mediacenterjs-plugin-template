@@ -1,16 +1,13 @@
-#This is a work in progress......
+#MediacenterJS Plugins template
 
 
-#MediacenterJS Plugins
-
-
-The easiest way start creating plugins for MediacenterJS is to clone the mediacenterjs-plugin-template repository.  This template has the required files and folder structure along with some sample HTML and CSS.
+The easist way create plugins for MediacenterJS is to use the mediacenterjs-template-generator. [View the documentation][5] for more information 
 
 ```
-git clone https://github.com/TerryMooreII/mediacenterjs-plugin-template.git
-```
+npm install mediacenterjs-template-generator
+node template-generator.js
+```  
 
-After cloning this repository then rename the mediacenterjs-plugin-template folder to match the name of your plugin.  However you **must** keep the `mediacenterjs-` prefix.  This prefix is what lets mediacenterjs know that this module is a plugin.  If you plan on sharing this plugin with the community (and we think you should) it is recommend that you do a `npm search mediacenterjs-<your-plugin-name>` to make that name has not been taken.  We will discuss how to test your plugin locally and then how to publish your plugin later on in this document. 
 
 There are a few requirements that your plugins must adhere to.  It is required that your plugin have a `public` and `views` folder and an `index.js` file located in the root of the plugin folder.  
 
@@ -125,3 +122,4 @@ video#player.video-js.vjs-default-skin(controls, preload="metadata", width="100%
   [2]: http://jade-lang.com/tutorial/
   [3]: http://express.com
   [4]: http://github.com
+  [5]: https://github.com/TerryMooreII/mediacenterjs-template-generator
