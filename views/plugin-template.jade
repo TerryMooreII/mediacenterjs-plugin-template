@@ -1,30 +1,22 @@
-doctype 5
-html(lang="en")
-	head
-		// Core inclusion
-		link(rel='stylesheet', href='/core/css/style.css')
-		script(src="/core/js/jquery-1.8.2.min.js")
-		script(src="/core/js/jquery.mcjs.core.js")
-		
-		// App specific
-		link(rel='stylesheet', href='/mediacenterjs-plugin-template/public/css/style.css')
-		
-		title Your Plugin Title
-		
-		script.
-			$(function(){
-				
-				$('body').mcjs();
-			
-			});
-	body
-		#header
-			a.backlink(href="/") 
-				img(src="/core/icons/back.png")
+extends /layout
 
-			h1 Plugin Title
+block declarations
+	- additional_title = 'Plugin-Template';
 
-		#wrapper
-			=data
-			
+block additional_css
+	link(rel='stylesheet', href='')
 
+block additional_scripts
+	script(src="")
+
+block body
+		header
+			.container
+				.row
+					.col-md-12
+						a.backlink(href="/") &#xe113;
+						h1.hidden-xs Plugin-Template	
+			.container
+				.row
+					.col-md-12
+						=data
